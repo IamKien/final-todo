@@ -16,7 +16,7 @@ class Add extends React.Component{
     });
   }
   handleAddNew() {
-    this.props.add(this.state.todo);
+    this.props.addTodos(this.state.todo);
     this.setState({
       todo: ""
     });
